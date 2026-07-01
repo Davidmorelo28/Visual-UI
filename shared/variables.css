@@ -1,1 +1,25 @@
+:root {
+  /* Colores */
+  --color-bg: #f4f7fc;
+  --color-white: #ffffff;
+  --color-text-dark: #0b1f5f;
+  --color-text-light: #6b7280;
+  --color-primary: #0066cc;
+  --color-border: #d8deea;
+  --color-border-alt: #e5e7eb;
+  --color-disabled-bg: #cfd6df;
+  --color-disabled-text: #8b97a7;
+  --color-bg-soft: #eef5ff;
 
+  /* Tipografía */
+  --font-main: Arial, sans-serif;
+
+  /* Bordes */
+  --radius-sm: 14px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 30px;
+
+  /* Sombra */
+  --shadow-phone: 0 12px 35px rgba(0,0,0,.08);
+}
