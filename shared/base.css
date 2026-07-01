@@ -1,1 +1,61 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: var(--font-main);
+  background: var(--color-bg);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.phone {
+  width: 390px;
+  min-height: 820px;
+  background: var(--color-white);
+  border-radius: var(--radius-xl);
+  padding: 25px;
+  box-shadow: var(--shadow-phone);
+}
+
+h1 {
+  text-align: center;
+  color: var(--color-text-dark);
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+label {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+
+button {
+  width: 100%;
+  margin-top: 30px;
+  padding: 18px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--color-disabled-bg);
+  color: var(--color-disabled-text);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: not-allowed;
+  transition: .3s;
+}
+
+button.activo {
+  background: var(--color-primary);
+  color: var(--color-white);
+  cursor: pointer;
+}
